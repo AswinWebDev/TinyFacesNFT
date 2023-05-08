@@ -6,11 +6,18 @@ import TwitterIcon from "./Twittericon";
 const Footer = () => {
   const Container = styled.div`
     margin-top: 140px;
+    @media (max-width: 1200px) {
+      margin-top: 50px;
+    }
   `;
   const FooterContainer = styled.div`
     display: flex;
 
     gap: 120px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      gap: 50px;
+    }
   `;
   const Footer1Box = styled.div``;
   const TinyFacesNft = styled.div`
@@ -26,13 +33,15 @@ const Footer = () => {
     color: #233348;
 
     mix-blend-mode: normal;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const TinyFacesNftPara = styled.div`
     margin-top: 36px;
     width: 334.91px;
     height: 60px;
-    left: 100px;
-    top: 6004px;
 
     font-family: "Poppins";
     font-style: normal;
@@ -42,6 +51,10 @@ const Footer = () => {
     /* or 188% */
 
     color: #425466;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const FooterItems = styled.div`
     margin-top: 36px;
@@ -60,6 +73,10 @@ const Footer = () => {
     /* or 200% */
 
     color: #425466;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const IconContainer = styled.div`
     display: flex;
@@ -75,6 +92,10 @@ const Footer = () => {
 
     border: 2px solid #e0e0e0;
     margin-top: 40px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const CopyrightContainer = styled.div`
     display: flex;
@@ -83,6 +104,12 @@ const Footer = () => {
     height: 24px;
     left: 100px;
     top: 6240px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      width: auto;
+    }
   `;
   const CopyRightTitle = styled.div`
     font-family: "Poppins";
@@ -97,6 +124,11 @@ const Footer = () => {
   const ContactUSAndTermsContainer = styled.div`
     display: flex;
     gap: 38px;
+    @media (max-width: 1200px) {
+      margin-top: 20px;
+      flex-direction: column;
+      gap: 10px;
+    }
   `;
   const ContactUsAndTerms = styled.div`
     font-family: "Poppins";
@@ -157,7 +189,9 @@ const Footer = () => {
       <FooterLine></FooterLine>
       <CopyrightContainer>
         <CopyRightTitle>
-          © Copyright 2022 TinyFaces.NFT All rights reserved.
+          © Copyright 2022{" "}
+          <span style={{ fontWeight: "600" }}>TinyFaces.NFT</span>
+          All rights reserved.
         </CopyRightTitle>
         <ContactUSAndTermsContainer>
           <ContactUsAndTerms>Contact Us</ContactUsAndTerms>

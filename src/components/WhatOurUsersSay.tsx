@@ -18,6 +18,9 @@ const WhatOurUsersSay = () => {
     padding: 0px;
     gap: 0px;
     margin-top: 240px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+    }
   `;
   const LeftContainer = styled.div`
     display: flex;
@@ -29,6 +32,9 @@ const WhatOurUsersSay = () => {
     width: 180px;
     height: 633px;
     margin-right: auto;
+    @media (max-width: 1200px) {
+      display: none;
+    }
   `;
   const LeftElement = styled.div`
     display: flex;
@@ -40,6 +46,9 @@ const WhatOurUsersSay = () => {
 
     width: 80px;
     height: 633px;
+    @media (max-width: 1200px) {
+      display: none;
+    }
   `;
   const RightContainer = styled.div`
     display: flex;
@@ -52,6 +61,9 @@ const WhatOurUsersSay = () => {
     width: 180px;
     height: 633px;
     margin-left: auto;
+    @media (max-width: 1200px) {
+      display: none;
+    }
   `;
   const RightElement = styled.div`
     display: flex;
@@ -63,6 +75,9 @@ const WhatOurUsersSay = () => {
 
     width: 80px;
     height: 633px;
+    @media (max-width: 1200px) {
+      display: none;
+    }
   `;
   const ChildImg1 = styled.img`
     width: 180px;
@@ -90,6 +105,11 @@ const WhatOurUsersSay = () => {
 
     width: 688px;
     height: 750px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+      gap: 30px;
+    }
   `;
   const WhatOurUsersSayBox = styled.div`
     display: flex;
@@ -101,6 +121,11 @@ const WhatOurUsersSay = () => {
 
     width: 688px;
     height: 128px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+      gap: 30px;
+    }
   `;
   const WhatOur = styled.div`
     width: 446px;
@@ -114,6 +139,10 @@ const WhatOurUsersSay = () => {
     /* identical to box height, or 91% */
 
     color: #272d4e;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const UsersSay = styled.span`
     color: #0ac05e;
@@ -131,6 +160,10 @@ const WhatOurUsersSay = () => {
     /* or 145% */
 
     color: #676a6c;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const WhatOurUsersSaySmallBox = styled.div`
     box-sizing: border-box;
@@ -149,6 +182,11 @@ const WhatOurUsersSay = () => {
     border-radius: 26.3301px;
     padding: 100px 40px;
     z-index: 10;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+      padding: 30px 20px;
+    }
   `;
   const WhatOurUsersSaySmallBoxShadow = styled.div`
     position: absolute;
@@ -170,6 +208,11 @@ const WhatOurUsersSay = () => {
     font-weight: 400;
     font-size: 22.1098px;
     line-height: 41px;
+    @media (max-width: 1200px) {
+      margin-top: 30px;
+      width: auto;
+      height: auto;
+    }
   `;
   const GreenRound = styled.img`
     position: absolute;

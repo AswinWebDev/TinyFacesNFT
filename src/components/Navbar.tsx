@@ -1,6 +1,12 @@
 import styled from "styled-components";
 const Navbar = () => {
   const NavbarContainer = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  `;
+
+  const NavbarLogo = styled.div`
     width: 165px;
     height: 38px;
     font-style: normal;
@@ -9,6 +15,23 @@ const Navbar = () => {
     line-height: 38px;
     letter-spacing: -0.06em;
     color: #09ad55;
+  `;
+  const CenterNav = styled.div`
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    @media (max-width: 1200px) {
+      display: none;
+    }
+  `;
+  const LoginAndSignUp = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35.3px;
+    @media (max-width: 1200px) {
+      display: none;
+    }
   `;
   const Home = styled.div`
     height: 27px;
@@ -81,31 +104,27 @@ const Navbar = () => {
     white-space: nowrap;
   `;
   return (
-    <div className="container">
-      <div className="row justify-content-between align-items-center">
-        <div className="col-3">
-          <div className="row">
-            <NavbarContainer className="col-3">
-              TinyFaces<span style={{ color: "#313131" }}>NFT</span>
-            </NavbarContainer>
-          </div>
-        </div>
-        <div className="col-4">
-          <div className="row">
-            <Home className="col-3">Home</Home>
-            <About className="col-3">About</About>
-            <Features className="col-3">Features</Features>
-            <Contact className="col-3">Contact</Contact>
-          </div>
-        </div>
-        <div className="col-3">
-          <div className="row justify-content-end align-items-center">
-            <Login className="col-3">Login</Login>
-            <SignUp className="col-3">Sign up</SignUp>
-          </div>
-        </div>
+    <NavbarContainer>
+      <div>
+        <NavbarLogo>
+          TinyFaces<span style={{ color: "#313131" }}>NFT</span>
+        </NavbarLogo>
       </div>
-    </div>
+      <div>
+        <CenterNav>
+          <Home>Home</Home>
+          <About>About</About>
+          <Features>Features</Features>
+          <Contact>Contact</Contact>
+        </CenterNav>
+      </div>
+      <div>
+        <LoginAndSignUp>
+          <Login>Login</Login>
+          <SignUp>Sign up</SignUp>
+        </LoginAndSignUp>
+      </div>
+    </NavbarContainer>
   );
 };
 

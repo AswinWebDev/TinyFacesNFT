@@ -48,10 +48,18 @@ const RecentlyAdded = () => {
     text-align: center;
 
     color: #676a6c;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const CharContainer = styled.div`
     display: flex;
     gap: 70px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      gap: 50px;
+    }
   `;
 
   const Char3Rect = styled.div`
@@ -156,6 +164,10 @@ const RecentlyAdded = () => {
     align-items: center;
     padding: 0px;
     gap: 90px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      gap: 50px;
+    }
   `;
   const UniqueTinyFacesSmall = styled.div`
     display: flex;
@@ -166,6 +178,10 @@ const RecentlyAdded = () => {
 
     width: 731px;
     height: 198px;
+    @media (max-width: 1200px) {
+      width: 90vw;
+      height: auto;
+    }
   `;
   const Unique = styled.div`
     font-family: "Poppins";
@@ -174,7 +190,6 @@ const RecentlyAdded = () => {
     font-size: 44px;
     line-height: 40px;
     /* identical to box height, or 91% */
-
     color: #0ac05e;
   `;
   const TinyFaces = styled.span`
@@ -197,6 +212,8 @@ const RecentlyAdded = () => {
     height: 406px;
     background: rgba(182, 182, 182, 0.5);
     border-radius: 209px 0px 0px 0px;
+    @media (max-width: 1200px) {
+    }
   `;
   const Character6Img = styled.img`
     position: absolute;
@@ -217,6 +234,10 @@ const RecentlyAdded = () => {
     /* or 145% */
 
     color: #676a6c;
+    @media (max-width: 1200px) {
+      width: 90vw;
+      height: auto;
+    }
   `;
   //  Secure the most rare //
   const SecureMostRareContainer = styled.div`
@@ -227,6 +248,10 @@ const RecentlyAdded = () => {
     padding: 0px;
     gap: 90px;
     margin-top: 140px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      gap: 50px;
+    }
   `;
   const SecureMostRareSmall = styled.div`
     display: flex;
@@ -237,6 +262,10 @@ const RecentlyAdded = () => {
 
     width: 731px;
     height: 198px;
+    @media (max-width: 1200px) {
+      width: 90vw;
+      height: auto;
+    }
   `;
   const Secure = styled.div`
     font-family: "Poppins";
@@ -268,6 +297,8 @@ const RecentlyAdded = () => {
     height: 406px;
     background: rgba(181, 137, 172, 0.2);
     border-radius: 209px 0px 0px 0px;
+    @media (max-width: 1200px) {
+    }
   `;
   const Character7Img = styled.img`
     position: absolute;
@@ -288,6 +319,10 @@ const RecentlyAdded = () => {
     /* or 145% */
 
     color: #676a6c;
+    @media (max-width: 1200px) {
+      width: 90vw;
+      height: auto;
+    }
   `;
   // Secure the most rare //
   return (

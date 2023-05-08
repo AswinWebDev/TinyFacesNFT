@@ -8,10 +8,16 @@ import About from "./components/About";
 import WhatOurUsersSay from "./components/WhatOurUsersSay";
 import JoinTheCommunity from "./components/JoinTheCommunity";
 import Footer from "./components/Footer";
+import styled from "styled-components";
 
 const App = () => {
+  const AppContainer = styled.div`
+    width: 85vw;
+    margin: auto;
+    margin-top: 52px;
+  `;
   return (
-    <div className="container mt-5">
+    <AppContainer>
       <Navbar />
       <Frame111 />
       <Features />
@@ -20,7 +26,7 @@ const App = () => {
       <WhatOurUsersSay />
       <JoinTheCommunity />
       <Footer />
-    </div>
+    </AppContainer>
   );
 };
 

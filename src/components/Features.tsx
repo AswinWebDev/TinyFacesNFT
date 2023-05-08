@@ -10,6 +10,10 @@ const Features = () => {
     height: 709px;
     margin: 0px auto;
     margin-top: 146px;
+    @media (max-width: 1200px) {
+      width: 90vw;
+      height: auto;
+    }
   `;
   const Frame68 = styled.div`
     display: flex;
@@ -25,6 +29,11 @@ const Features = () => {
     left: calc(50% - 908px / 2 + 39px);
     top: 861px;
     margin: 0 auto;
+    @media (max-width: 1200px) {
+      gap: 50px;
+      width: auto;
+      height: auto;
+    }
   `;
   const ThousandsOf = styled.p`
     font-style: normal;
@@ -37,6 +46,12 @@ const Features = () => {
     flex: none;
     color: #2d3134;
     display: inline-block;
+    @media (max-width: 1200px) {
+      display: block;
+      font-size: 30px;
+      width: auto;
+      height: auto;
+    }
   `;
   const FeatureText = styled.span`
     color: #0ac05e;
@@ -50,6 +65,8 @@ const Features = () => {
     flex: none;
     color: #2d3134;
     display: block;
+    @media (max-width: 1200px) {
+    }
   `;
   const FeaturesPara = styled.div`
     width: 908px;
@@ -72,11 +89,19 @@ const Features = () => {
     order: 1;
     flex-grow: 0;
     margin-top: 30px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
 
   const FeatureChildContainer1 = styled.div`
     display: flex;
     margin-top: 30px;
+    flex-direction: row;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+    }
   `;
   const FeatureChildCard1 = styled.div`
     position: relative;
@@ -234,7 +259,7 @@ const Features = () => {
         <ThousandsOf>
           Thousand Of <FeatureText>Features</FeatureText>
         </ThousandsOf>
-        <AwaitingText> Awaiting For You</AwaitingText>
+        <AwaitingText>Awaiting For You</AwaitingText>
         <FeaturesPara>
           Characterised by soft lighting, vintage colour schemes and quirky
           costumes, these generative 3D TinyFaces are the addition to your NFT
@@ -252,7 +277,7 @@ const Features = () => {
           </UniqueFacePara>
           <FindOutMoreContainer>
             <FindOutMore>Find Out More</FindOutMore>
-            <ArrowLine src={ArrowLineImg} alt="Aroow line" />
+            <ArrowLine src={ArrowLineImg} alt="Arrow line" />
             <Arrow src={ArrowImg} alt="Arrow" />
           </FindOutMoreContainer>
         </FeatureChildCard1>

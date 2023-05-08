@@ -43,6 +43,10 @@ const About = () => {
     text-align: center;
 
     color: #676a6c;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const Frame99 = styled.div`
     display: flex;
@@ -54,6 +58,12 @@ const About = () => {
 
     width: 1240px;
     height: 352px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      gap: 50px;
+      width: auto;
+      height: auto;
+    }
   `;
   const Frame98 = styled.div`
     display: flex;
@@ -64,6 +74,10 @@ const About = () => {
 
     width: 712px;
     height: 250px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const Frame98Para = styled.div`
     width: 712px;
@@ -80,10 +94,19 @@ const About = () => {
     letter-spacing: 0.5px;
 
     color: #7d7987;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const LearnMoreWatchVideo = styled.div`
     display: flex;
     margin-top: 30px;
+    gap: 40px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      gap: 30px;
+    }
   `;
   const LearnMoreButton = styled.div`
     display: flex;
@@ -100,6 +123,10 @@ const About = () => {
     box-shadow: 0px 25px 50px rgba(10, 192, 94, 0.1);
     border-radius: 9px;
     color: #ffffff;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const WatchVideoContainer = styled.div`
     display: flex;
@@ -114,7 +141,10 @@ const About = () => {
 
     border: 1px solid #0ac05e;
     border-radius: 9px;
-    margin-left: 40px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const WatchVideo = styled.div`
     width: 217px;
@@ -128,6 +158,10 @@ const About = () => {
     /* identical to box height, or 178% */
 
     color: #0ac05e;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const WatchVideoPolygon = styled.div`
     width: 14px;
@@ -136,12 +170,20 @@ const About = () => {
     background: #0ac05e;
     border-radius: 5px;
     clip-path: polygon(0 0, 0 100%, 100% 49%);
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const Frame97 = styled.div`
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     margin-top: 60px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      gap: 30px;
+    }
   `;
   const Frame97Box1 = styled.div`
     box-sizing: border-box;

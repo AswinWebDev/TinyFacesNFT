@@ -4,6 +4,9 @@ const JoinTheCommunity = () => {
   const JoinTheCommunityContainer = styled.div`
     display: flex;
     margin-top: 140px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+    }
   `;
   const Character7Container = styled.div`
     position: relative;
@@ -15,6 +18,11 @@ const JoinTheCommunity = () => {
     height: 472px;
     background: #daf6e7;
     border-radius: 209px 0px 0px 0px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+      border-radius: 100px 0px 0px 0px;
+
   `;
   const Character7Img = styled.img`
     position: absolute;
@@ -22,6 +30,12 @@ const JoinTheCommunity = () => {
     height: 402px;
     left: 55px;
     bottom: 0px;
+    @media (max-width: 1200px) {
+      position: static;
+
+      width: 80vw;
+      height: auto;
+    }
   `;
   const JoinTheCommunityBox = styled.div`
     display: flex;
@@ -38,6 +52,13 @@ const JoinTheCommunity = () => {
     text-align: left;
     padding-left: 54px;
     padding-right: 150px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+      border-radius: 0px 0px 100px 0px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: 50px;
   `;
 
   const JoinThe = styled.div`
@@ -52,6 +73,10 @@ const JoinTheCommunity = () => {
     /* identical to box height, or 91% */
 
     color: #272d4e;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const Community = styled.span`
     color: #0ac05e;
@@ -70,6 +95,10 @@ const JoinTheCommunity = () => {
     color: #676a6c;
 
     margin-top: 30px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const DiscordAndTwitterBox = styled.div`
     display: flex;
@@ -81,6 +110,12 @@ const JoinTheCommunity = () => {
     width: 465px;
     height: 52px;
     margin-top: 30px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+      flex-direction: column;
+      gap: 20px;
+    }
   `;
   const DiscordBox = styled.div`
     display: flex;
@@ -96,6 +131,11 @@ const JoinTheCommunity = () => {
     background: #0ac05e;
     box-shadow: 0px 25px 50px rgba(10, 192, 94, 0.1);
     border-radius: 9px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      width: auto;
+      height: auto;
+    }
   `;
   const DiscordTitle = styled.div`
     width: 112px;
@@ -109,6 +149,10 @@ const JoinTheCommunity = () => {
     /* identical to box height, or 178% */
 
     color: #ffffff;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const TwitterBox = styled.div`
     box-sizing: border-box;
@@ -128,6 +172,11 @@ const JoinTheCommunity = () => {
     border: 1px solid #0ac05e;
     filter: drop-shadow(0px 25px 50px rgba(10, 192, 94, 0.1));
     border-radius: 9px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      width: auto;
+      height: auto;
+    }
   `;
   const TwitterTitle = styled.div`
     width: 153px;
@@ -141,6 +190,10 @@ const JoinTheCommunity = () => {
     /* identical to box height, or 178% */
 
     color: #0ac05e;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   return (
     <JoinTheCommunityContainer>

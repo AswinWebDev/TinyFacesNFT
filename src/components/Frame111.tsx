@@ -4,6 +4,12 @@ import character2 from "../assets/characters/chr2.svg";
 const Frame111 = () => {
   const Frame111Container = styled.div`
     margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+    }
   `;
   const Frame92 = styled.div`
     width: 750px;
@@ -12,20 +18,37 @@ const Frame111 = () => {
     flex-direction: column;
     justify-content: space-between;
     gap: 60px;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const FindYourFavCharacter = styled.div`
     margin-top: 80px;
+    @media (max-width: 1200px) {
+      line-height: 50px;
+      width: auto;
   `;
   const FindAndCharacter = styled.div`
-    display: inline-block;
     font-style: normal;
     font-weight: 700;
     font-size: 70px;
     color: #0ac05e;
-    line-height: 30px;
+    line-height: 50px;
+    @media (max-width: 1200px) {
+      font-size: 40px;
+      line-height: 30px;
+    }
   `;
   const YourFav = styled.span`
     color: #313131;
+    @media (max-width: 1200px) {
+      position: static;
+      display: block;
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 50px;
+    }
   `;
   const Character = styled.div`
     display: block;
@@ -35,6 +58,10 @@ const Frame111 = () => {
     color: #0ac05e;
     line-height: 30px;
     margin-top: 20px;
+    @media (max-width: 1200px) {
+      font-size: 40px;
+      line-height: 30px;
+    }
   `;
   const CharacterBoxContainer = styled.div`
     margin-left: auto;
@@ -43,10 +70,19 @@ const Frame111 = () => {
     position: relative;
     background: rgba(10, 192, 94, 0.12);
     border-radius: 0px 216px 15px 14px;
+    @media (max-width: 1200px) {
+      margin: 0 auto;
+      width: auto;
+      height: auto;
+    }
   `;
   const CharacterImage = styled.img`
     position: absolute;
     bottom: 0;
+    @media (max-width: 1200px) {
+      position: static;
+      width: 80%;
+    }
   `;
   const Ellipse2 = styled.div`
     position: absolute;
@@ -64,6 +100,10 @@ const Frame111 = () => {
       0px 8.14815px 6.51852px rgba(56, 56, 56, 0.0392593),
       0px 1.85185px 3.14815px rgba(56, 56, 56, 0.0240741);
     border-radius: 50%;
+    @media (max-width: 1200px) {
+      width: 5px;
+      height: 5px;
+    }
   `;
   const Rectangle2 = styled.div`
     box-sizing: border-box;
@@ -83,6 +123,10 @@ const Frame111 = () => {
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 8px;
+    @media (max-width: 1200px) {
+      width: 100px;
+      height: 50px;
+    }
   `;
   const EllipseText202k = styled.div`
     position: absolute;
@@ -99,6 +143,13 @@ const Frame111 = () => {
     /* identical to box height */
 
     color: #ff4d4a;
+    @media (max-width: 1200px) {
+      top: 25px;
+      left: 50px;
+      font-size: 15px;
+      width: 22px;
+      height: 15px;
+    }
   `;
   const EllipseTextUnique = styled.div`
     position: absolute;
@@ -115,6 +166,13 @@ const Frame111 = () => {
     /* or 117% */
 
     color: #313131;
+    @media (max-width: 1200px) {
+      top: 60px;
+      left: 85px;
+      font-size: 10px;
+      width: 22px;
+      height: 15px;
+    }
   `;
   const Rectangle3351 = styled.div`
     box-sizing: border-box;
@@ -132,6 +190,11 @@ const Frame111 = () => {
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 7.1px;
+    @media (max-width: 1200px) {
+      width: 106px;
+      height: 100px;
+      top: 150px;
+    }
   `;
   const Rectangle3351SecureText = styled.div`
     position: absolute;
@@ -152,6 +215,11 @@ const Frame111 = () => {
     color: #313131;
 
     opacity: 0.96;
+    @media (max-width: 1200px) {
+      width: 70px;
+      height: 50px;
+      top: 150px;
+      font-size: 10px;
   `;
   const Rectangle3352 = styled.div`
     position: absolute;
@@ -162,6 +230,11 @@ const Frame111 = () => {
 
     background: #fbfbfb;
     border-radius: 7.1px;
+    @media (max-width: 1200px) {
+      width: 80px;
+      height: 50px;
+      top: 195px;
+    }
   `;
   const Rectangle3000Text = styled.div`
     position: absolute;
@@ -177,6 +250,12 @@ const Frame111 = () => {
     text-align: center;
 
     color: #ff4d4a;
+    @media (max-width: 1200px) {
+      width: 50px;
+      height: 20px;
+      top: 190px;
+      font-size: 10px;
+    }
   `;
   const Rectangle3000NewTinyText = styled.div`
     position: absolute;
@@ -194,6 +273,12 @@ const Frame111 = () => {
     text-align: center;
 
     color: #404040;
+    @media (max-width: 1200px) {
+      width: 70px;
+      height: 20px;
+      top: 215px;
+      font-size: 8px;
+    }
   `;
   const Rectangle3000EllipseImg = styled.img`
     position: absolute;
@@ -201,6 +286,12 @@ const Frame111 = () => {
     height: 37.28px;
     right: 11px;
     top: 321.66px;
+    @media (max-width: 1200px) {
+      width: 20px;
+      height: 20px;
+      top: 145px;
+      right: 22px;
+    }
   `;
 
   const Paragraph = styled.div`
@@ -215,6 +306,10 @@ const Frame111 = () => {
     /* or 188% */
 
     color: #425466;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
 
   const Frame91 = styled.div`
@@ -223,9 +318,10 @@ const Frame111 = () => {
     align-items: center;
     padding: 0px;
     gap: 46px;
-
-    width: 422.68px;
-    height: 104.68px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      gap: 20px;
+    }
   `;
   const JoinDiscordContainer = styled.div`
     display: flex;
@@ -241,6 +337,11 @@ const Frame111 = () => {
     background: #0ac05e;
     box-shadow: 0px 25px 50px rgba(10, 192, 94, 0.1);
     border-radius: 9px;
+    @media (max-width: 1200px) {
+      flex-direction: column;
+      width: auto;
+      height: auto;
+    }
   `;
   const JoinDiscord = styled.div`
     width: 112px;
@@ -254,6 +355,10 @@ const Frame111 = () => {
     /* identical to box height, or 178% */
 
     color: #ffffff;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+    }
   `;
   const Ellipse4 = styled.div`
     box-sizing: border-box;
@@ -297,8 +402,8 @@ const Frame111 = () => {
     color: #0ac05e;
   `;
   return (
-    <Frame111Container className="row">
-      <Frame92 className="col-md-6">
+    <Frame111Container>
+      <Frame92>
         <FindYourFavCharacter>
           <FindAndCharacter>
             Find
@@ -321,8 +426,8 @@ const Frame111 = () => {
           </Ellipse4>
         </Frame91>
       </Frame92>
-      <CharacterBoxContainer className="col-md-6">
-        <CharacterImage src={character1} alt="character one"></CharacterImage>
+      <CharacterBoxContainer>
+        <CharacterImage src={character1} alt="character one" />
         <Ellipse2></Ellipse2>
         <Rectangle2></Rectangle2>
         <EllipseText202k>202k</EllipseText202k>
