@@ -188,18 +188,6 @@ const WhatOurUsersSay = () => {
       padding: 30px 20px;
     }
   `;
-  const WhatOurUsersSaySmallBoxShadow = styled.div`
-    position: absolute;
-    width: 480.96px;
-    height: 357.21px;
-    left: 103.39px;
-    top: 274.79px;
-
-    background: #ffffff;
-    box-shadow: 0px 15.7981px 46.3881px rgba(215, 228, 249, 0.28);
-    border-radius: 17.5534px;
-    z-index: 1;
-  `;
   const WhatOurUsersSaySmallPara = styled.div`
     width: 442.2px;
     height: 165.82px;
