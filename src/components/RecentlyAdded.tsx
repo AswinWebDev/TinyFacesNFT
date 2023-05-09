@@ -70,6 +70,7 @@ const RecentlyAdded = () => {
     @media (max-width: 1200px) {
       flex-direction: column;
       gap: 50px;
+      max-width: 90vw;
     }
   `;
 
@@ -203,6 +204,9 @@ const RecentlyAdded = () => {
     line-height: 40px;
     /* identical to box height, or 91% */
     color: #0ac05e;
+    @media (max-width: 1200px) {
+      font-size: 20px;
+    }
   `;
   const TinyFaces = styled.span`
     font-family: "Poppins";
@@ -213,6 +217,9 @@ const RecentlyAdded = () => {
     /* identical to box height, or 91% */
 
     color: #2d3134;
+    @media (max-width: 1200px) {
+      font-size: 20px;
+    }
   `;
   const Character6Container = styled.div`
     position: relative;
@@ -225,6 +232,7 @@ const RecentlyAdded = () => {
     background: rgba(182, 182, 182, 0.5);
     border-radius: 209px 0px 0px 0px;
     @media (max-width: 1200px) {
+      max-width: 90vw;
     }
   `;
   const Character6Img = styled.img`
@@ -233,6 +241,11 @@ const RecentlyAdded = () => {
     height: 336px;
     left: 55px;
     bottom: 0px;
+    @media (max-width: 1200px) {
+      max-width: 90vw;
+      height: auto;
+      left: 20px;
+    }
   `;
   const UniqueTinyFacesSmallPara = styled.div`
     width: 731px;
@@ -247,7 +260,7 @@ const RecentlyAdded = () => {
 
     color: #676a6c;
     @media (max-width: 1200px) {
-      width: 90vw;
+      max-width: 90vw;
       height: auto;
     }
   `;
@@ -275,7 +288,7 @@ const RecentlyAdded = () => {
     width: 731px;
     height: 198px;
     @media (max-width: 1200px) {
-      width: 90vw;
+      max-width: 90vw;
       height: auto;
     }
   `;
@@ -288,6 +301,9 @@ const RecentlyAdded = () => {
     /* identical to box height, or 91% */
 
     color: #0ac05e;
+    @media (max-width: 1200px) {
+      font-size: 20px;
+    }
   `;
   const TheMostRare = styled.span`
     font-family: "Poppins";
@@ -298,6 +314,9 @@ const RecentlyAdded = () => {
     /* identical to box height, or 91% */
 
     color: #2d3134;
+    @media (max-width: 1200px) {
+      font-size: 20px;
+    }
   `;
   const Character7Container = styled.div`
     position: relative;
@@ -310,6 +329,7 @@ const RecentlyAdded = () => {
     background: rgba(181, 137, 172, 0.2);
     border-radius: 209px 0px 0px 0px;
     @media (max-width: 1200px) {
+      max-width: 380px;
     }
   `;
   const Character7Img = styled.img`
@@ -318,6 +338,11 @@ const RecentlyAdded = () => {
     height: 336px;
     left: 55px;
     bottom: 0px;
+    @media (max-width: 1200px) {
+      max-width: 90vw;
+      height: auto;
+      left: 20px;
+    }
   `;
   const SecureTheMostRarePara = styled.div`
     width: 731px;

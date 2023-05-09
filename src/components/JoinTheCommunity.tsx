@@ -20,7 +20,7 @@ const JoinTheCommunity = () => {
     background: #daf6e7;
     border-radius: 209px 0px 0px 0px;
     @media (max-width: 1200px) {
-      width: 90vw;
+      max-width: 90vw;
       height: auto;
       border-radius: 100px 0px 0px 0px;
 
@@ -34,7 +34,7 @@ const JoinTheCommunity = () => {
     @media (max-width: 1200px) {
       position: static;
 
-      width: 80vw;
+      max-width: 80vw;
       height: auto;
     }
   `;
@@ -54,7 +54,7 @@ const JoinTheCommunity = () => {
     padding-left: 54px;
     padding-right: 150px;
     @media (max-width: 1200px) {
-      width: 90vw;
+      max-width: 90vw;
       height: auto;
       border-radius: 0px 0px 100px 0px;
       padding-left: 30px;
@@ -77,6 +77,7 @@ const JoinTheCommunity = () => {
     @media (max-width: 1200px) {
       width: auto;
       height: auto;
+      font-size: 20px;
     }
   `;
   const Community = styled.span`

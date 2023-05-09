@@ -11,7 +11,7 @@ const Features = () => {
     margin: 0px auto;
     margin-top: 146px;
     @media (max-width: 1200px) {
-      width: 95vw;
+      max-width: 95vw;
       height: auto;
     }
   `;
@@ -30,7 +30,7 @@ const Features = () => {
     margin: 0 auto;
     @media (max-width: 1200px) {
       gap: 30px;
-      width: auto;
+      max-width: 95vw;
       height: auto;
     }
   `;
@@ -226,6 +226,9 @@ const Features = () => {
     color: #7d7987;
 
     mix-blend-mode: normal;
+    @media (max-width: 1200px) {
+      width: 200px;
+    }
   `;
   const FindOutMoreContainer = styled.div`
     display: flex;

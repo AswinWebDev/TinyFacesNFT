@@ -10,6 +10,7 @@ const Frame111 = () => {
     @media (max-width: 1200px) {
       flex-direction: column;
       margin-top: 0px;
+      max-width: 95vw;
     }
   `;
   const Frame92 = styled.div`
@@ -20,7 +21,7 @@ const Frame111 = () => {
     justify-content: space-between;
     gap: 60px;
     @media (max-width: 1200px) {
-      width: auto;
+      max-width: 95vw;
       height: auto;
     }
   `;
@@ -28,7 +29,7 @@ const Frame111 = () => {
     margin-top: 80px;
     @media (max-width: 1200px) {
       line-height: 30px;
-      width: auto;
+      max-width: 95vw;
   `;
   const FindAndCharacter = styled.div`
     font-style: normal;
@@ -39,6 +40,7 @@ const Frame111 = () => {
     @media (max-width: 1200px) {
       font-size: 20px;
       line-height: 0px;
+      max-width: 95vw;
     }
   `;
   const YourFav = styled.span`
@@ -47,6 +49,7 @@ const Frame111 = () => {
       font-size: 20px;
       line-height: 0px;
       margin-top: 40px;
+      max-width: 95vw;
     }
   `;
   const Character = styled.div`
@@ -60,6 +63,7 @@ const Frame111 = () => {
     @media (max-width: 1200px) {
       font-size: 20px;
       line-height: 40px;
+      max-width: 95vw;
     }
   `;
   const CharacterBoxContainer = styled.div`
@@ -71,8 +75,8 @@ const Frame111 = () => {
     border-radius: 0px 216px 15px 14px;
     @media (max-width: 1200px) {
       margin: 0 auto;
-      width: 95vw;
       height: auto;
+      max-width: 95vw;
     }
   `;
   const CharacterImage = styled.img`
@@ -80,7 +84,7 @@ const Frame111 = () => {
     bottom: 0;
     @media (max-width: 1200px) {
       position: static;
-      width: 95vw;
+      max-width: 95vw;
       height: auto;
     }
   `;
@@ -307,7 +311,7 @@ const Frame111 = () => {
 
     color: #425466;
     @media (max-width: 1200px) {
-      width: auto;
+      max-width: 95vw;
       height: auto;
     }
   `;
