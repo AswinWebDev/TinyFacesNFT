@@ -45,6 +45,7 @@ const Features = () => {
     flex: none;
     color: #2d3134;
     display: inline-block;
+
     @media (max-width: 1200px) {
       display: block;
       font-size: 30px;
@@ -55,8 +56,9 @@ const Features = () => {
   `;
   const FeatureText = styled.span`
     color: #0ac05e;
+    margin-left: 10px;
     @media (max-width: 1200px) {
-      display: block;
+      display: inline-block;
       font-size: 30px;
       width: auto;
       height: auto;
