@@ -329,7 +329,7 @@ const RecentlyAdded = () => {
     background: rgba(181, 137, 172, 0.2);
     border-radius: 209px 0px 0px 0px;
     @media (max-width: 1200px) {
-      max-width: 380px;
+      max-width: 379px;
     }
   `;
   const Character7Img = styled.img`
