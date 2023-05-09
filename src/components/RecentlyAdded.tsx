@@ -192,6 +192,7 @@ const RecentlyAdded = () => {
     @media (max-width: 1200px) {
       width: 90vw;
       height: auto;
+      align-items: center;
     }
   `;
   const Unique = styled.div`

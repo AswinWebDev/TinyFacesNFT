@@ -20,6 +20,7 @@ const WhatOurUsersSay = () => {
     margin-top: 240px;
     @media (max-width: 1200px) {
       flex-direction: column;
+      margin-top: 100px;
     }
   `;
   const LeftContainer = styled.div`
@@ -211,6 +212,9 @@ const WhatOurUsersSay = () => {
 
     background: #0ac05e;
     border-radius: 50%;
+    @media (max-width: 1200px) {
+      left: 45%;
+    }
   `;
   const Comma = styled.img`
     position: absolute;
@@ -222,6 +226,9 @@ const WhatOurUsersSay = () => {
     /* White color  */
 
     background: #0ac05e;
+    @media (max-width: 1200px) {
+      left: 48%;
+    }
   `;
   //   page numbers //
   const PageBox = styled.div`
