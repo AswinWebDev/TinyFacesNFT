@@ -38,16 +38,15 @@ const Frame111 = () => {
     line-height: 50px;
     @media (max-width: 1200px) {
       font-size: 20px;
-      line-height: 30px;
+      line-height: 0px;
     }
   `;
   const YourFav = styled.span`
     color: #313131;
     @media (max-width: 1200px) {
-      display: block;
       font-size: 20px;
-      line-height: 30px;
-      margin-top: 50px;
+      line-height: 0px;
+      margin-top: 40px;
     }
   `;
   const Character = styled.div`
@@ -60,7 +59,7 @@ const Frame111 = () => {
     margin-top: 20px;
     @media (max-width: 1200px) {
       font-size: 20px;
-      line-height: 30px;
+      line-height: 40px;
     }
   `;
   const CharacterBoxContainer = styled.div`
@@ -372,6 +371,7 @@ const Frame111 = () => {
     border: 1.28117px dashed #0ac05e;
     border-radius: 50%;
     @media (max-width: 1200px) {
+      margin-left: auto;
       left: 0px;
       top: 0px;
     }

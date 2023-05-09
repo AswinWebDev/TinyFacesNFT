@@ -6,6 +6,7 @@ const JoinTheCommunity = () => {
     margin-top: 140px;
     @media (max-width: 1200px) {
       flex-direction: column;
+      max-width: 95vw;
     }
   `;
   const Character7Container = styled.div`
@@ -19,7 +20,7 @@ const JoinTheCommunity = () => {
     background: #daf6e7;
     border-radius: 209px 0px 0px 0px;
     @media (max-width: 1200px) {
-      width: auto;
+      width: 90vw;
       height: auto;
       border-radius: 100px 0px 0px 0px;
 
@@ -53,7 +54,7 @@ const JoinTheCommunity = () => {
     padding-left: 54px;
     padding-right: 150px;
     @media (max-width: 1200px) {
-      width: auto;
+      width: 90vw;
       height: auto;
       border-radius: 0px 0px 100px 0px;
       padding-left: 30px;

@@ -8,6 +8,7 @@ const Footer = () => {
     margin-top: 140px;
     @media (max-width: 1200px) {
       margin-top: 50px;
+      max-width: 95vw;
     }
   `;
   const FooterContainer = styled.div`
@@ -15,6 +16,7 @@ const Footer = () => {
 
     gap: 120px;
     @media (max-width: 1200px) {
+      width: 95vw;
       flex-direction: column;
       gap: 50px;
     }
@@ -34,7 +36,7 @@ const Footer = () => {
 
     mix-blend-mode: normal;
     @media (max-width: 1200px) {
-      width: auto;
+      width: 95vw;
       height: auto;
     }
   `;
@@ -52,7 +54,7 @@ const Footer = () => {
 
     color: #425466;
     @media (max-width: 1200px) {
-      width: auto;
+      width: 95vw;
       height: auto;
     }
   `;
@@ -74,7 +76,7 @@ const Footer = () => {
 
     color: #425466;
     @media (max-width: 1200px) {
-      width: auto;
+      width: 95vw;
       height: auto;
     }
   `;
@@ -82,6 +84,9 @@ const Footer = () => {
     display: flex;
     margin-top: 41px;
     gap: 20px;
+    @media (max-width: 1200px) {
+      width: 95vw;
+    }
   `;
 
   const FooterLine = styled.div`
@@ -93,7 +98,7 @@ const Footer = () => {
     border: 2px solid #e0e0e0;
     margin-top: 40px;
     @media (max-width: 1200px) {
-      width: auto;
+      width: 95vw;
       height: auto;
     }
   `;
@@ -108,7 +113,7 @@ const Footer = () => {
     margin-bottom: 20px;
     @media (max-width: 1200px) {
       flex-direction: column;
-      width: auto;
+      width: 95vw;
     }
   `;
   const CopyRightTitle = styled.div`
@@ -175,8 +180,8 @@ const Footer = () => {
         <Footer1Box>
           <TinyFacesNft>Contact Us</TinyFacesNft>
           <FooterItems>
-            <div>+91 88188 75275 </div>
-            <div>sehjadpatel8599@gmail.com</div>
+            <div>+918818875275 </div>
+            <div>aswinwebdev@gmail.com</div>
             <IconContainer>
               <InstagramIcon />
               <LinkedIcon />

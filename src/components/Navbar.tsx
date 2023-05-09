@@ -18,6 +18,7 @@ const Navbar = () => {
     @media (max-width: 1200px) {
       width: 170px;
       height: auto;
+      line-height: 0;
     }
   `;
   const CenterNav = styled.div`
