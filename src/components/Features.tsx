@@ -11,7 +11,7 @@ const Features = () => {
     margin: 0px auto;
     margin-top: 146px;
     @media (max-width: 1200px) {
-      width: 90vw;
+      width: 95vw;
       height: auto;
     }
   `;
@@ -26,11 +26,10 @@ const Features = () => {
 
     width: 908px;
     height: 205px;
-    left: calc(50% - 908px / 2 + 39px);
-    top: 861px;
+
     margin: 0 auto;
     @media (max-width: 1200px) {
-      gap: 50px;
+      gap: 30px;
       width: auto;
       height: auto;
     }
@@ -51,21 +50,29 @@ const Features = () => {
       font-size: 30px;
       width: auto;
       height: auto;
+      line-height: 40px;
     }
   `;
   const FeatureText = styled.span`
     color: #0ac05e;
+    @media (max-width: 1200px) {
+      display: block;
+      font-size: 30px;
+      width: auto;
+      height: auto;
+    }
   `;
   const AwaitingText = styled.div`
     font-style: normal;
     font-weight: 700;
     font-size: 44px;
-    line-height: 6px;
+    line-height: 50px;
     text-align: center;
     flex: none;
     color: #2d3134;
     display: block;
     @media (max-width: 1200px) {
+      font-size: 30px;
     }
   `;
   const FeaturesPara = styled.div`
@@ -99,6 +106,7 @@ const Features = () => {
     display: flex;
     margin-top: 30px;
     flex-direction: row;
+    gap: 45px;
     @media (max-width: 1200px) {
       flex-direction: column;
     }
@@ -106,7 +114,7 @@ const Features = () => {
   const FeatureChildCard1 = styled.div`
     position: relative;
     margin-top: 140px;
-    margin-right: 45px;
+
     box-sizing: border-box;
 
     /* Auto layout */
@@ -127,12 +135,16 @@ const Features = () => {
     flex: none;
     order: 0;
     flex-grow: 0;
+    @media (max-width: 1200px) {
+      margin-top: 0px;
+      width: 95vw;
+    }
   `;
   const FeatureChildCard2 = styled.div`
     position: relative;
     box-sizing: border-box;
     margin-top: 60px;
-    margin-right: 45px;
+
     /* Auto layout */
 
     display: flex;
@@ -151,6 +163,10 @@ const Features = () => {
     flex: none;
     order: 0;
     flex-grow: 0;
+    @media (max-width: 1200px) {
+      margin-top: 0px;
+      width: 95vw;
+    }
   `;
 
   const Ellipse616 = styled.img`
@@ -257,7 +273,8 @@ const Features = () => {
     <FeaturesContainer>
       <Frame68>
         <ThousandsOf>
-          Thousand Of <FeatureText>Features</FeatureText>
+          Thousand Of
+          <FeatureText>Features</FeatureText>
         </ThousandsOf>
         <AwaitingText>Awaiting For You</AwaitingText>
         <FeaturesPara>

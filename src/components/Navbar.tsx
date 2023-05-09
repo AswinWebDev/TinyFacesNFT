@@ -15,6 +15,10 @@ const Navbar = () => {
     line-height: 38px;
     letter-spacing: -0.06em;
     color: #09ad55;
+    @media (max-width: 1200px) {
+      width: 170px;
+      height: auto;
+    }
   `;
   const CenterNav = styled.div`
     display: flex;

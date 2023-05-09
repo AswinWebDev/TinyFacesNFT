@@ -29,10 +29,21 @@ const RecentlyAdded = () => {
     /* identical to box height, or 91% */
 
     color: #0ac05e;
+    @media (max-width: 1200px) {
+      width: auto;
+      height: auto;
+      font-size: 30px;
+    }
   `;
   const Added = styled.span`
     margin-left: 10px;
     color: #2d3134;
+    @media (max-width: 1200px) {
+      display: block;
+      font-size: 30px;
+      width: auto;
+      height: auto;
+    }
   `;
   const RecentlyAddedPara = styled.div`
     width: 908px;
@@ -331,9 +342,9 @@ const RecentlyAdded = () => {
         Recently<Added>Added</Added>
       </Recently>
       <RecentlyAddedPara>
-        lighting, vintage colour schemes and quirky costumes, these generative
-        3D TinyFaces are the addition to your NFT collection you've been waiting
-        for.
+        Characterised by soft lighting, vintage colour schemes and quirky
+        costumes, these generative 3D TinyFaces are the addition to your NFT
+        collection you've been waiting for.
       </RecentlyAddedPara>
       <CharContainer>
         <Char3Rect>

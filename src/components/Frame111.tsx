@@ -9,6 +9,7 @@ const Frame111 = () => {
     justify-content: space-between;
     @media (max-width: 1200px) {
       flex-direction: column;
+      margin-top: 0px;
     }
   `;
   const Frame92 = styled.div`
@@ -26,7 +27,7 @@ const Frame111 = () => {
   const FindYourFavCharacter = styled.div`
     margin-top: 80px;
     @media (max-width: 1200px) {
-      line-height: 50px;
+      line-height: 30px;
       width: auto;
   `;
   const FindAndCharacter = styled.div`
@@ -36,14 +37,13 @@ const Frame111 = () => {
     color: #0ac05e;
     line-height: 50px;
     @media (max-width: 1200px) {
-      font-size: 40px;
+      font-size: 20px;
       line-height: 30px;
     }
   `;
   const YourFav = styled.span`
     color: #313131;
     @media (max-width: 1200px) {
-      position: static;
       display: block;
       font-size: 20px;
       line-height: 30px;
@@ -59,7 +59,7 @@ const Frame111 = () => {
     line-height: 30px;
     margin-top: 20px;
     @media (max-width: 1200px) {
-      font-size: 40px;
+      font-size: 20px;
       line-height: 30px;
     }
   `;
@@ -72,7 +72,7 @@ const Frame111 = () => {
     border-radius: 0px 216px 15px 14px;
     @media (max-width: 1200px) {
       margin: 0 auto;
-      width: auto;
+      width: 95vw;
       height: auto;
     }
   `;
@@ -81,7 +81,8 @@ const Frame111 = () => {
     bottom: 0;
     @media (max-width: 1200px) {
       position: static;
-      width: 80%;
+      width: 95vw;
+      height: auto;
     }
   `;
   const Ellipse2 = styled.div`
@@ -338,7 +339,7 @@ const Frame111 = () => {
     box-shadow: 0px 25px 50px rgba(10, 192, 94, 0.1);
     border-radius: 9px;
     @media (max-width: 1200px) {
-      flex-direction: column;
+      margin-right: auto;
       width: auto;
       height: auto;
     }
@@ -370,6 +371,10 @@ const Frame111 = () => {
 
     border: 1.28117px dashed #0ac05e;
     border-radius: 50%;
+    @media (max-width: 1200px) {
+      left: 0px;
+      top: 0px;
+    }
   `;
   const Polygon1 = styled.div`
     position: absolute;
