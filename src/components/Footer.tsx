@@ -180,7 +180,7 @@ const Footer = () => {
         <Footer1Box>
           <TinyFacesNft>Contact Us</TinyFacesNft>
           <FooterItems>
-            <div>+918818875275 </div>
+            <div>+910081475218 </div>
             <div>aswinwebdev@gmail.com</div>
             <IconContainer>
               <InstagramIcon />
