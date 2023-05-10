@@ -4,6 +4,8 @@ const Navbar = () => {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media (max-width: 1200px) {
+      justify-content:center;
   `;
 
   const NavbarLogo = styled.div`

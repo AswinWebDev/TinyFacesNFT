@@ -70,7 +70,7 @@ const RecentlyAdded = () => {
     @media (max-width: 1200px) {
       flex-direction: column;
       gap: 50px;
-      max-width: 90vw;
+      max-width: 95vw;
     }
   `;
 
@@ -81,12 +81,20 @@ const RecentlyAdded = () => {
 
     background: #d9b7b4;
     border-radius: 10px;
+    @media (max-width: 1200px) {
+      max-width: 100vw;
+      height: 400px;
+    }
   `;
   const Char3Img = styled.img`
     position: absolute;
     width: 373.15px;
     height: 404px;
     bottom: 0px;
+    @media (max-width: 1200px) {
+      max-width: 100vw;
+      height: auto;
+    }
   `;
   const Char4Rect = styled.div`
     position: relative;
@@ -95,12 +103,20 @@ const RecentlyAdded = () => {
 
     background: #b7b5d9;
     border-radius: 10px;
+    @media (max-width: 1200px) {
+      max-width: 100vw;
+      height: 400px;
+    }
   `;
   const Char4Img = styled.img`
     position: absolute;
     width: 372px;
     height: 411px;
     bottom: 0px;
+    @media (max-width: 1200px) {
+      max-width: 100vw;
+      height: auto;
+    }
   `;
   const Char5Rect = styled.div`
     position: relative;
@@ -109,12 +125,21 @@ const RecentlyAdded = () => {
 
     background: #d2e4e5;
     border-radius: 10px;
+    @media (max-width: 1200px) {
+      max-width: 100vw;
+      height: 400px;
+    }
   `;
   const Char5Img = styled.img`
     position: absolute;
     width: 372px;
     height: 411px;
     bottom: -27px;
+    @media (max-width: 1200px) {
+      max-width: 100vw;
+      height: auto;
+      bottom: 0px;
+    }
   `;
 
   const PageBox = styled.div`
@@ -178,7 +203,7 @@ const RecentlyAdded = () => {
     gap: 90px;
     @media (max-width: 1200px) {
       flex-direction: column;
-      gap: 50px;
+      gap: 40px;
     }
   `;
   const UniqueTinyFacesSmall = styled.div`
@@ -274,8 +299,10 @@ const RecentlyAdded = () => {
     gap: 90px;
     margin-top: 140px;
     @media (max-width: 1200px) {
+      max-width: 90vw;
       flex-direction: column;
-      gap: 50px;
+      gap: 40px;
+      margin-top: 30px;
     }
   `;
   const SecureMostRareSmall = styled.div`
@@ -329,7 +356,7 @@ const RecentlyAdded = () => {
     background: rgba(181, 137, 172, 0.2);
     border-radius: 209px 0px 0px 0px;
     @media (max-width: 1200px) {
-      max-width: 379px;
+      max-width: 90vw;
     }
   `;
   const Character7Img = styled.img`

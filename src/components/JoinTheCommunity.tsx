@@ -20,7 +20,7 @@ const JoinTheCommunity = () => {
     background: #daf6e7;
     border-radius: 209px 0px 0px 0px;
     @media (max-width: 1200px) {
-      max-width: 90vw;
+      max-width: 95vw;
       height: auto;
       border-radius: 100px 0px 0px 0px;
 
@@ -34,7 +34,7 @@ const JoinTheCommunity = () => {
     @media (max-width: 1200px) {
       position: static;
 
-      max-width: 80vw;
+      max-width: 90vw;
       height: auto;
     }
   `;

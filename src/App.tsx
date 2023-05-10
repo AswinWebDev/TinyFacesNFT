@@ -16,7 +16,9 @@ const App = () => {
     margin: auto;
     margin-top: 52px;
     @media (max-width: 1200px) {
-      padding: 0px;
+      margin: 0;
+      margin-top: 52px;
+      padding: 5px;
       width: 95vw;
     }
   `;

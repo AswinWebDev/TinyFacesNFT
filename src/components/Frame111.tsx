@@ -41,6 +41,7 @@ const Frame111 = () => {
       font-size: 20px;
       line-height: 0px;
       max-width: 95vw;
+      text-align: center;
     }
   `;
   const YourFav = styled.span`
@@ -62,8 +63,9 @@ const Frame111 = () => {
     margin-top: 20px;
     @media (max-width: 1200px) {
       font-size: 20px;
-      line-height: 40px;
+      line-height: 15px;
       max-width: 95vw;
+      text-align: center;
     }
   `;
   const CharacterBoxContainer = styled.div`
@@ -325,6 +327,7 @@ const Frame111 = () => {
     @media (max-width: 1200px) {
       flex-direction: column;
       gap: 20px;
+      margin-bottom: 50px;
     }
   `;
   const JoinDiscordContainer = styled.div`
