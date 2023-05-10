@@ -154,7 +154,7 @@ const Features = () => {
     justify-content: center;
     align-items: center;
     padding: 28px;
-    gap: 23px;
+    gap: 12px;
     width: 322px;
     height: 364px;
 
@@ -187,7 +187,7 @@ const Features = () => {
 
   const UniqueTinyFaces = styled.div`
     margin-top: 80px;
-    width: 135px;
+    width: 235px;
     height: 58px;
 
     font-family: "inter";
