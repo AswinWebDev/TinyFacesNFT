@@ -9,6 +9,7 @@ import GreenRoundImg from "../assets/GreenRound.svg";
 import LeftArrowImg from "../assets/ArrowIconLeft.svg";
 import RightArrowImg from "../assets/ArrowIconRight.svg";
 import commaImg from "../assets/comma.svg";
+import starImg from "../assets/Star.svg";
 const WhatOurUsersSay = () => {
   const WhatOurUsersSay = styled.div`
     display: flex;
@@ -284,6 +285,42 @@ const WhatOurUsersSay = () => {
   `;
   //   page numbers //
 
+  const StarContainer = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 12.17px;
+    align-items: center;
+    width: 139.57px;
+    margin-bottom: 25.39px;
+    @media (max-width: 1200px) {
+      margin-top: 45px;
+      width: auto;
+    }
+  `;
+
+  const Star = styled.img``;
+  const Sam = styled.div`
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.3461px;
+    line-height: 29px;
+
+    color: #313131;
+    margin-top: 15.16px;
+    margin-bottom: 6.91px;
+  `;
+  const Migelko = styled.div`
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.8186px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+    color: #425466;
+  `;
+
   return (
     <WhatOurUsersSay>
       <LeftContainer>
@@ -306,11 +343,22 @@ const WhatOurUsersSay = () => {
           </WhatOurUsersSayPara>
 
           <WhatOurUsersSaySmallBox>
+            {/* star box */}
+            <StarContainer>
+              <Star src={starImg} alt="icon" />
+              <Star src={starImg} alt="icon" />
+              <Star src={starImg} alt="icon" />
+              <Star src={starImg} alt="icon" />
+              <Star src={starImg} alt="icon" />
+            </StarContainer>
+            {/* star box */}
             <WhatOurUsersSaySmallPara>
               Yet preference connection unpleasant yet melancholy but end
               appearance. And excellence partiality estimating terminated day
               everything.
             </WhatOurUsersSaySmallPara>
+            <Sam>Sam</Sam>
+            <Migelko>@Migelko</Migelko>
             <GreenRound src={GreenRoundImg} alt="icon" />
             <Comma src={commaImg} alt="icon" />
           </WhatOurUsersSaySmallBox>
